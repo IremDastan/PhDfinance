@@ -1,30 +1,9 @@
----
-title: ""
-image: images/profile.jpg
-toc: false
+<main class="content column-page" id="quarto-document-content">
+  <p>I am a PhD candidate in finance.</p>
 
-about:
-  template: jolla
-  image-shape: round
-  image-width: 14em
-  links:
-    - icon: twitter-x
-      text: Twitter
-      href: https://twitter.com/iremmdastan
-      target: _blank
-    - icon: github
-      text: GitHub
-      href: https://github.com/IremDastan
-      target: _blank
-    - icon: envelope
-      text: Email
-      href: mailto:iremdastannn@gmail.com
----
+  <p>This website is a collection of my study notes, research ideas, and ongoing work. I share materials that I found useful during my PhD journey, including conceptual frameworks, derivations, and interpretations of core topics.</p>
 
-I am a PhD candidate in finance.
+  <p>From time to time, I also organize and discuss important papers.</p>
 
-This website is a collection of my study notes, research ideas, and ongoing work. I share materials that I found useful during my PhD journey, including conceptual frameworks, derivations, and interpretations of core topics.
-
-From time to time, I also organize and discuss important papers.
-
-The goal is simple: to think clearly, learn deeply, and document the process.
+  <p>The goal is simple: to think clearly, learn deeply, and document the process.</p>
+</main>
