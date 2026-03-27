@@ -7,9 +7,9 @@ website:
   navbar:
     right:
       - text: Home
-          href: index.qmd
-        - text: Notes
-          href: notes.qmd
+        href: index.qmd
+      - text: Notes
+        href: notes.html
 format:
   html:
     page-layout: full
