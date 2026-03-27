@@ -1,91 +1,195 @@
 ---
-title: "PhD Qualifying Exam — Study Notes"
+title: "PhD Qualifying Exam – Study Notes"
 ---
 
-## How I Studied
+# How I Studied
 
-My most important realization: learn derivation, not memorization. I studied each topic at three levels: **intuition** (why it's correct), **mathematical derivation** (how to derive it), and **economic meaning** (what it means).
+I’d like to share how I studied for my PhD qualifying exam, in case it helps others.
 
-The real test: close the paper and derive everything from scratch. If you can't, you haven't learned it.
+My most important realization was this: learn derivation, not memorization. A superficial understanding is not enough. In the exam, what matters is not remembering the result, but being able to derive how that result is reached.
 
-> Learning ≠ solving. What makes the difference isn't working hard, but working correctly.
+For example, unless you can derive the relationship from utility to risk premium and then to ARA, you have not truly learned the concept.
+
+Therefore, I studied each topic at three levels:
+
+- intuition (why it is correct)  
+- mathematical derivation (how it is derived)  
+- economic meaning (what it implies)  
+
+Without the combination of these three, knowledge is not truly internalized.
+
+Textbooks teach, but they do not teach exam logic. That is why past exam questions are extremely valuable — they show you how to think from the examiner’s perspective.
+
+I never trusted the feeling of “I understood.” My test was simple: close everything and derive the result from scratch. If I couldn’t, I hadn’t learned it.
+
+The biggest mistake is passive studying — reading, highlighting, etc. Real learning comes from writing, deriving, and solving.
+
+*Learning ≠ solving.*
+
+In a PhD qualifying exam, what matters is not just knowing the material, but being able to build it from scratch and connect concepts across fields.
+
+The best test of understanding is explaining it clearly to someone else. If you cannot explain it simply, you do not fully understand it.
+
+This process taught me one thing: what makes the difference is not working hard, but working correctly.
 
 ---
 
-## 1. Banking
+# Core Fields
+
+## Banking
 
 Banks are not institutions — they are a **collection of contracts**.
 
 **Key question:** What problem exists? Which contract solves it?
 
-- Markets fail due to adverse selection and moral hazard
-- **Diamond-Dybvig model**: liquidity provision and bank run risk stem from the same contract
-- Loan contracts = screening + monitoring + incentive design
-- Risk is **redistributed within contracts**
-- Securitization, shadow banking = repackaging risk, rewriting contracts
+- Markets fail due to adverse selection and moral hazard  
+- Diamond–Dybvig: liquidity provision and bank-run risk stem from the same contract  
+- Loan contracts = screening + monitoring + incentive design  
+- Risk is redistributed within contracts  
+- Securitization and shadow banking = repackaging risk  
 
-> Learning banking is learning contract theory. Everything else is detail.
-
----
-
-## 2. Corporate Finance
-
-Corporate finance is **incentive design under information asymmetry**.
-
-**Key question:** What is the incentive problem, and what mechanism solves it?
-
-- **Modigliani-Miller**: if no frictions, financial structure is irrelevant — understand *why MM breaks down*
-- Debt disciplines managers (Jensen-Meckling)
-- **Myers-Majluf**: financing order (internal > debt > equity) reflects information structure
-- IPOs, dividends, governance = same problem: **information, incentives, control**
-
-> Learning corporate finance is understanding the incentives and information structure behind financial decisions.
+Learning banking is learning contract theory. Everything else is detail.
 
 ---
 
-## 3. Econometrics
+## Corporate Finance
 
-Econometrics is about understanding **where estimators come from and what they measure**.
+Corporate finance is not about memorizing decisions, but about understanding **incentive design**.
 
-- **β** — population parameter
-- **β̂** — sample estimate
-- **β̃** — alternative estimators under different assumptions
+Financial decisions (capital structure, dividends, investment) are made under:
 
-- OLS derivation: minimization → normal equations → projection logic
-- **Gauss-Markov**: under what assumptions is β̂ BLUE? What does "best" mean?
-- Heteroskedasticity & serial correlation: how does distribution of β̂ change?
+- information asymmetry  
+- agency problems  
 
-> I used Greene (the green book) and derived every result from scratch.
+The key question is:
+
+→ What is the problem?  
+→ What mechanism solves it?
+
+Modigliani–Miller provides a benchmark: without frictions, financial structure is irrelevant. The important question is why this benchmark fails.
+
+When taxes, bankruptcy costs, agency problems, and asymmetric information are introduced, capital structure becomes meaningful.
+
+The firm can be viewed as a collection of contracts. Conflicts between managers and shareholders, free cash flow problems, and control issues are all incentive alignment problems.
+
+Debt is not just financing — it is also a disciplinary mechanism.
+
+With asymmetric information:
+
+- financing choices become signals  
+- internal funds > debt > equity (Myers–Majluf)
+
+Advanced topics (IPO, payout policy, governance) reflect the same core structure:
+
+information + incentives + control
+
+Corporate finance is not about decisions — it is about the **structure behind decisions**.
 
 ---
 
-## 4. Asset Pricing
+## Econometrics
 
-Asset pricing = understanding **how risk is priced**.
+Econometrics is not about techniques, but about understanding **estimators**.
 
-**Key question:** Which risks are priced, and why do some yield a premium?
+I studied econometrics both empirically and theoretically, but focused on the theoretical side. Without theory, empirical work becomes mechanical.
 
-- **Markowitz (1952)**: mean-variance tradeoff → efficient frontier
-- **CAPM (Sharpe 1964)**: priced risk is systematic risk (β), not total volatility
-- Derive CAPM: MV optimization → market portfolio → Security Market Line
-- **Roll's Critique (1977)**: market portfolio is unobservable
-- **APT**: multiple systematic factors can be priced — a generalization of CAPM
-- Fama-French, Fama-MacBeth: multifactor empirical models
+The key question is:
 
-> The logic is always the same: risk → pricing.
+→ Why does this estimator look like this?
+
+I based my study on Greene (“the green book”) and derived everything.
+
+The distinction between:
+
+- β (true parameter)  
+- β̂ (estimator)  
+- β̃ (alternative estimators under different assumptions)  
+
+is fundamental.
+
+OLS is not a formula — it is a solution to an optimization problem.
+
+I focused on:
+
+- minimization problem  
+- normal equations  
+- projection logic  
+- assumptions behind estimator properties  
+
+Gauss–Markov is not a result to memorize, but a logic:
+
+→ Under which assumptions is β̂ BLUE?  
+→ What does “best” mean?
+
+Similarly, heteroskedasticity and serial correlation are not just problems — they change the distribution of β̂.
+
+The goal is not to know tests, but to understand estimator behavior.
 
 ---
 
-## 5. Behavioral Finance
+## Asset Pricing
 
-Behavioral finance = **systematic irrationality and its price impact**.
+Asset pricing is about **how risk is priced**.
 
-**Key framework:** What bias → what behavior → what market outcome?
+I studied CAPM, mean-variance analysis, and APT as different expressions of the same problem:
 
-- **Shleifer-Vishny**: irrational behavior persists when arbitrage is costly
-- **Prospect theory**: loss aversion + reference dependence + concave/convex value function
-- Heuristics: overconfidence, representativeness, availability
-- Market outcomes: momentum, overreaction, underreaction, disposition effect
-- Baker-Wurgler sentiment; attention-based models
+→ Which risks are priced, and why?
 
-> Learning behavioral finance is understanding how mistakes systematically translate into price changes.
+Mean-variance analysis is the foundation:
+
+- investors trade off return and variance  
+- efficient frontier defines optimal portfolios  
+
+CAPM is not a formula, but an equilibrium result:
+
+- only systematic risk is priced  
+- β measures exposure to market risk  
+
+I focused on deriving CAPM:
+
+mean-variance → market portfolio → security market line
+
+Roll’s critique highlights its limitations and motivates multifactor models (Fama–French, Fama–MacBeth).
+
+APT generalizes CAPM:
+
+- multiple systematic risk factors can be priced  
+- same logic: risk → return  
+
+Asset pricing is not about formulas — it is about understanding the **risk–return relationship**.
+
+---
+
+## Behavioral Finance
+
+Behavioral finance is not just about irrationality — it is about **systematic deviations** and their effect on prices.
+
+The key framework:
+
+- efficient markets  
+- limits to arbitrage  
+
+Irrationality alone is not enough — arbitrage must be limited for mispricing to persist.
+
+Shleifer–Vishny shows that arbitrage is not unlimited.
+
+Instead of memorizing biases, I grouped them:
+
+- prospect theory (loss aversion, reference dependence)  
+- heuristics (overconfidence, representativeness, availability)  
+
+The key is:
+
+→ which bias → which behavior → which market outcome
+
+Market anomalies (momentum, overreaction, disposition effect) are aggregates of individual behavior.
+
+In advanced topics:
+
+- sentiment  
+- attention  
+- emotions  
+
+Prices are shaped not only by risk, but also by psychology.
+
+Behavioral finance is not a list of biases — it is a framework linking behavior to prices.
