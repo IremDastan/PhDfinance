@@ -1,0 +1,91 @@
+---
+title: "PhD Qualifying Exam — Study Notes"
+---
+
+## How I Studied
+
+My most important realization: learn derivation, not memorization. I studied each topic at three levels: **intuition** (why it's correct), **mathematical derivation** (how to derive it), and **economic meaning** (what it means).
+
+The real test: close the paper and derive everything from scratch. If you can't, you haven't learned it.
+
+> Learning ≠ solving. What makes the difference isn't working hard, but working correctly.
+
+---
+
+## 1. Banking
+
+Banks are not institutions — they are a **collection of contracts**.
+
+**Key question:** What problem exists? Which contract solves it?
+
+- Markets fail due to adverse selection and moral hazard
+- **Diamond-Dybvig model**: liquidity provision and bank run risk stem from the same contract
+- Loan contracts = screening + monitoring + incentive design
+- Risk is **redistributed within contracts**
+- Securitization, shadow banking = repackaging risk, rewriting contracts
+
+> Learning banking is learning contract theory. Everything else is detail.
+
+---
+
+## 2. Corporate Finance
+
+Corporate finance is **incentive design under information asymmetry**.
+
+**Key question:** What is the incentive problem, and what mechanism solves it?
+
+- **Modigliani-Miller**: if no frictions, financial structure is irrelevant — understand *why MM breaks down*
+- Debt disciplines managers (Jensen-Meckling)
+- **Myers-Majluf**: financing order (internal > debt > equity) reflects information structure
+- IPOs, dividends, governance = same problem: **information, incentives, control**
+
+> Learning corporate finance is understanding the incentives and information structure behind financial decisions.
+
+---
+
+## 3. Econometrics
+
+Econometrics is about understanding **where estimators come from and what they measure**.
+
+- **β** — population parameter
+- **β̂** — sample estimate
+- **β̃** — alternative estimators under different assumptions
+
+- OLS derivation: minimization → normal equations → projection logic
+- **Gauss-Markov**: under what assumptions is β̂ BLUE? What does "best" mean?
+- Heteroskedasticity & serial correlation: how does distribution of β̂ change?
+
+> I used Greene (the green book) and derived every result from scratch.
+
+---
+
+## 4. Asset Pricing
+
+Asset pricing = understanding **how risk is priced**.
+
+**Key question:** Which risks are priced, and why do some yield a premium?
+
+- **Markowitz (1952)**: mean-variance tradeoff → efficient frontier
+- **CAPM (Sharpe 1964)**: priced risk is systematic risk (β), not total volatility
+- Derive CAPM: MV optimization → market portfolio → Security Market Line
+- **Roll's Critique (1977)**: market portfolio is unobservable
+- **APT**: multiple systematic factors can be priced — a generalization of CAPM
+- Fama-French, Fama-MacBeth: multifactor empirical models
+
+> The logic is always the same: risk → pricing.
+
+---
+
+## 5. Behavioral Finance
+
+Behavioral finance = **systematic irrationality and its price impact**.
+
+**Key framework:** What bias → what behavior → what market outcome?
+
+- **Shleifer-Vishny**: irrational behavior persists when arbitrage is costly
+- **Prospect theory**: loss aversion + reference dependence + concave/convex value function
+- Heuristics: overconfidence, representativeness, availability
+- Market outcomes: momentum, overreaction, underreaction, disposition effect
+- Baker-Wurgler sentiment; attention-based models
+
+> Learning behavioral finance is understanding how mistakes systematically translate into price changes.
